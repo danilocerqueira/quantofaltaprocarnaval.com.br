@@ -9,31 +9,31 @@ Vue.component('countdown', {
       <div class="box">
         <div class="spacer"></div>
         <p class="value">{{ theTime.days }}</p>
-        <p class="label">days</p>
+        <p class="label">dias</p>
       </div>
       <div class="box">
         <div class="spacer"></div>
         <p class="value">{{ theTime.hours }}</p>
-        <p class="label">hours</p>
+        <p class="label">horas</p>
       </div>
       <div class="box">
         <div class="spacer"></div>
         <p class="value">{{ theTime.minutes }}</p>
-        <p class="label">minutes</p>
+        <p class="label">minutos</p>
       </div>
       <div class="box">
         <div class="spacer"></div>
         <p class="value">{{ theTime.seconds }}</p>
-        <p class="label">seconds</p>
+        <p class="label">segundos</p>
       </div>
-      <p class="text">to meet you</p>
+      <p class="text">para começar o carnaval</p>
     </div>
 
     <div v-show="expired" class="expired-timer timer">
       <div class="box">
         <div class="spacer"></div>
-        <p class="value">It's the great day</p>
-        <p class="label">I'll have you in my arms</p>
+        <p class="value">Chegou o grande dia</p>
+        <p class="label">Qual sua fantasia?</p>
       </div>
     </div>
    
@@ -42,11 +42,11 @@ Vue.component('countdown', {
 
     data() {
         return{
-            deadline: 'Jun 15, 2018 20:45:00',
-            days: 'HI',
-            hours: 'TH',
-            minutes: 'ER',
-            seconds: 'E!',
+            deadline: 'Mar 01, 2019 18:00:00',
+            days: 'CA',
+            hours: 'RN',
+            minutes: 'AV',
+            seconds: 'AL',
             expired: false
         };
     },
