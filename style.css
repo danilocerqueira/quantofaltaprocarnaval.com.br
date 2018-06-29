@@ -4,7 +4,7 @@
 }
 
 body {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,13 +91,16 @@ body {
     text-transform: uppercase;
 }
 .timer .text {
-    margin-top: 2rem;
-    font-weight: 300;
     font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     color: #B5838D;
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin: 0;
 }
 .expired-timer .box {
     width: 100%;
