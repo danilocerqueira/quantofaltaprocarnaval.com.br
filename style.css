@@ -10,9 +10,9 @@ body {
     align-items: center;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
-    background: #FFCDB2;
+    /*background: #FFCDB2;*/
+    background-size: cover;
 }
-
 .countdown {
     text-align: center;
 }
@@ -99,7 +99,6 @@ body {
     text-align: center;
     color: #B5838D;
 }
-
 .expired-timer .box {
     width: 100%;
 }
