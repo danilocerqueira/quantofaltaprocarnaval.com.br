@@ -61,12 +61,6 @@ Vue.component('renderimg', {
       var indexR = Math.floor(Math.random() * (imgsList.length -1));              
 
       document.body.style.backgroundImage = "url("+imgsList[indexR]+")";
-
-      // Search for the file with that name and process the first result
-      //var files = DriveApp.getFilesByName(fileName);
-
-
-      
     }
   },
 });
