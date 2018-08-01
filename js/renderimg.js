@@ -8,6 +8,17 @@ Vue.component('renderimg', {
   computed: {
     randimg: function() {
       
+      function viewport() {
+        var e = window, a = 'inner';
+        if ( !( 'innerWidth' in window ) ) {
+            a = 'client';
+            e = document.documentElement || document.body;
+        }
+        return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+      }
+      
+      console.log(viewport());
+      
       var imgsList = ['./background_img/15400572_765122216989217_6711826858003116152_n.jpg',
                       './background_img/15400572_765122216989217_6711826858003116152_n.jpg',
                       './background_img/16602780_757164317785007_7483241174805224017_n.jpg',
