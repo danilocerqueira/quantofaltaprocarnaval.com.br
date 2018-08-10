@@ -26,7 +26,7 @@ Vue.component('countdown', {
         <p class="value">{{ theTime.seconds }}</p>
         <p class="label">segundos</p>
       </div>
-      <p class="text">Para começar a melhor festa de rua do planeta!!</p>
+      <p class="text">Pra melhor festa de rua do planeta!!</p>
     </div>
 
     <div v-show="expired" class="expired-timer timer">
